@@ -1,5 +1,12 @@
 <?php
-
+    $apple = 110;
+    $orange = 80;
+    $appleNum = 15;
+    $orangeNum = 12;
+    $appleTotal = $apple * $appleNum;
+    $orangeTotal = $orange * $orangeNum;
+    $fruitsTotal = $appleTotal + $orangeTotal;
+    const TAX = 1.1;
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -10,16 +17,6 @@
     <title>taskVariable</title>
 </head>
 <body>
-    <?php 
-        $apple = 110;
-        $orange = 80;
-        $appleNum = 15;
-        $orangeNum = 12;
-        $appleTotal = $apple * $appleNum;
-        $orangeTotal = $orange * $orangeNum;
-        $fruitsTotal = $appleTotal + $orangeTotal;
-        const TAX = 1.1;
-    ?>
     <p><?php echo('りんごの総額は '.$appleTotal.'円 です。'); ?></p>
     <p><?php echo('オレンジの総額は '.$orangeTotal.'円 です。'); ?></p>
     <p><?php echo('総額(税抜)は '.$fruitsTotal.'円 です。'); ?></p>
