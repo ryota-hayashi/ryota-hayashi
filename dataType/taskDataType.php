@@ -14,9 +14,9 @@
     <title>taskDataType</title>
 </head>
 <body>
-    <p><?php echo("りんごが"."$intNum"."個あります。"); ?></p>
+    <p><?php echo("りんごが" . "$intNum" . "個あります。"); ?></p>
     <p><?php echo($str1); ?></p>
     <p><?php echo($str2); ?></p>
-    <p><?php echo(greeting."、".$name); ?></p>
+    <p><?php echo(greeting . "、" . $name); ?></p>
 </body>
 </html>
