@@ -6,15 +6,15 @@
         2017 => 4200000,
         2018 => 4150000
     ];
-    $score = [        //課題2の配列変数   
+    $score = [        //課題2の配列変数
         'A' => 80,
         'B' => 55,
         'C' => 61,
         'D' => 76,
         'E' => 34,
         'F' => 93
-    ];  
-?>  
+    ];
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -27,19 +27,19 @@
     <p><?php                                        //課題1-1
             echo("<pre>");
             var_dump($japanAverageSalaryArray);
-            echo("</pre>"); 
+            echo("</pre>");
     ?></p>
     <p><?php                                        //課題1-2
-            echo(array_sum($japanAverageSalaryArray) / count($japanAverageSalaryArray,1));
+            echo(array_sum($japanAverageSalaryArray) / count($japanAverageSalaryArray, COUNT_RECURSIVE));
     ?></p>
     <p><?php                                        //課題2-1
             echo("<pre>");
             var_dump($score);
-            echo("</pre>"); 
+            echo("</pre>");
     ?></p>
     <p><?php                                        //課題2-2
-            echo(array_sum($score) / count($score,1));
-            var_dump(count($score,1));
+            echo(array_sum($score) / count($score, COUNT_RECURSIVE));
+            var_dump(count($score, COUNT_RECURSIVE));
     ?></p>
 </body>
 </html>
