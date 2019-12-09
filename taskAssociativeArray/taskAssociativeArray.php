@@ -32,10 +32,10 @@
     <title>taskAssociativeArray</title>
 </head>
 <body>
-    <p><?php echo('A君の理科の点数は'.$score["boyA"]["science"].'点です。'); ?></p>
-    <p><?php echo('B君の英語の点数は'.$score["boyB"]["english"].'点です。'); ?></p>
-    <p><?php echo('A君の平均点は'.array_sum($score["boyA"]) / count($score["boyA"]).'点です。'); ?></p>
-    <p><?php echo('C君の平均点は'.array_sum($score["boyC"]) / count($score["boyC"]).'点です。'); ?></p>
-    <p><?php echo('3人の数学の平均点は'.(($score["boyA"]["math"] + $score["boyB"]["math"] + $score["boyC"]["math"]) / 3).'点です'); ?></p>
+    <p><?php echo('A君の理科の点数は' . $score["boyA"]["science"] . '点です。'); ?></p>
+    <p><?php echo('B君の英語の点数は' . $score["boyB"]["english"] . '点です。'); ?></p>
+    <p><?php echo('A君の平均点は' . array_sum($score["boyA"]) / count($score["boyA"]) . '点です。'); ?></p>
+    <p><?php echo('C君の平均点は' . array_sum($score["boyC"]) / count($score["boyC"]) . '点です。'); ?></p>
+    <p><?php echo('3人の数学の平均点は' . (($score["boyA"]["math"] + $score["boyB"]["math"] + $score["boyC"]["math"]) / 3) . '点です'); ?></p>
 </body>
 </html>
