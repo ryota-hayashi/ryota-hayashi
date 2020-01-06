@@ -4,7 +4,7 @@
         return $num1 . " × " . $num2 ." = " . $num1 * $num2;
     };
 
-    function display(array $num, callable $function)                                        //課題1
+    function display(array $num, callable $function)                                        //課題1(関数定義の方法が良くない？)
     {
         $calNum = $function(...$num);
         echo("関数で文字列を表示!<br>" . $calNum);
@@ -35,12 +35,12 @@
         createRandomNumbberArray();
         echo("</pre>");
     ?></p>
-    <p><?php                                        //課題3
+    <p><?php                                        //課題3(課題1の関数の定義の仕方が良くない？ため、変数に表示したい文字列を入れて戻り値としている)
         function createRandomNumberArrayAndDisplay() {
-            $returnBox = "";
+            $returnBox = "";                                        //変数を作成
             for($i = 0; $i <= 9; $i++) {
                 $array[$i] = rand(1, 100);
-                $returnBox .= $i + 1 . "番目の数値: " . $array[$i] . "<br>";
+                $returnBox .= $i + 1 . "番目の数値: " . $array[$i] . "<br>";                                        //強引に文字列を変数に入れている
             }
                 return $returnBox;
         }
