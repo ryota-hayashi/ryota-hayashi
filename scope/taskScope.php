@@ -21,7 +21,7 @@
     <p><?php
         $array = randomRecursiveCalc(rand(1, 15));
     ?>
-    <table border=1>                                        <!--課題2-->
+    <table border=1>
     <?php
         $cnt = 0;
         $total = 0;
