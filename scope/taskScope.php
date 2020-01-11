@@ -20,7 +20,7 @@
 <body>
     <p><?php
         $array = randomRecursiveCalc(rand(1, 15));
-    ?>  
+    ?>
     <table border=1>                                        <!--課題2-->
     <?php
         $cnt = 0;
@@ -31,7 +31,7 @@
         <td><?= $key + 1?></td>
         <td><?= $value?></td>
         <tr>
-    <?php 
+    <?php
         $cnt++;
         $total += $value;
     }?>
