@@ -15,12 +15,10 @@ function display(string $string)
 $text = '色を設定しました！';
 if(!isset($_GET['color'])) {
     $color = 'black';
-    setcookie('color', $color);
-}
-else{
+}else{
     $color = $_GET['color'];
-    setcookie('color', $color);
 }
+setcookie('color', $color);
 
 ?>
 <!DOCTYPE html>
