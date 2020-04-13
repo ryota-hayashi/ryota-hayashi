@@ -12,12 +12,8 @@ public class Task4 {
 		int numB = sc.nextInt();
 		sc.close();
 
-		//numAが0以下の場合
-		if(numA <= 0) {
-			System.out.print("正の整数を入力してください");
-
-		//numBが0以下の場合
-		}else if(numB <= 0) {
+		//numAまたはnumBが0以下の場合
+		if(numA <= 0 || numB <= 0) {
 			System.out.print("正の整数を入力してください");
 
 		//numBがnumAを割り切れる場合
