@@ -15,7 +15,7 @@ public class Task4 {
 
 		System.out.print(num + "の約数: ");
 
-		for(int i=1; i<num; i++) {
+		for(int i = 1; i < num; i++) {
 
 			if(num % i == 0) {
 

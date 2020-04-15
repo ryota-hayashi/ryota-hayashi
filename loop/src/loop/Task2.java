@@ -17,7 +17,7 @@ public class Task2 {
 		int sum = 0;
 
 		//ループ文
-		for(int i=1; i<num; i++) {
+		for(int i = 1; i < num; i++) {
 			System.out.print(i + " + ");
 			sum += i;
 		}

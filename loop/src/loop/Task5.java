@@ -5,10 +5,10 @@ public class Task5 {
 	public static void main(String[] args) {
 
 		//ループ１
-		for(int i=1; i<10; i++) {
+		for(int i = 1; i < 10; i++) {
 
 			//ループ２
-			for(int j=1; j<10; j++) {
+			for(int j = 1; j < 10; j++) {
 
 				//１桁の場合
 				if((i * j / 10) < 1) {
@@ -24,7 +24,7 @@ public class Task5 {
 
 			}
 			//改行
-			System.out.print("\n");
+			System.out.println();
 
 		}
 
