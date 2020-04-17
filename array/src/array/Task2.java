@@ -7,7 +7,7 @@ public class Task2 {
 		int[] array = new int[7];
 
 		//順表示
-		for(int i = 7; i > 0; i--) {
+		for(int i = array.length; i > 0; i--) {
 
 			array[i - 1] = i;
 
@@ -27,12 +27,12 @@ public class Task2 {
 			}
 		}
 		//逆順表示
-		for(int i = 0; i < 7; i++) {
+		for(int i = 0; i < array.length; i++) {
 
 			System.out.print(array[i]);
 
 			//カンマ表示
-			if(i < 6 ) {
+			if(i < array.length - 1) {
 				System.out.print(",");
 			};
 		}
