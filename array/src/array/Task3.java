@@ -1,5 +1,7 @@
 package array;
 
+import java.util.Random;
+
 public class Task3 {
 
 	public static void main(String[] args) {
@@ -16,7 +18,7 @@ public class Task3 {
 		//ループ
 		for(int i = 0; i < array.length; i++) {
 
-			int r = new java.util.Random().nextInt(10);
+			int r = new Random().nextInt(10);
 
 			array[i] = r;
 
