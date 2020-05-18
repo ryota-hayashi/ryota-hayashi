@@ -17,8 +17,8 @@ public class Dog extends Animal {
 	}
 
 	//眠る オーバーライド
-	public void sleep(String name) {
-		System.out.print(name + "は");
+	public void sleep() {
+		System.out.print(this.name + "は");
 		super.sleep();
 	}
 }

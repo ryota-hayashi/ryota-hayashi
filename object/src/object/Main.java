@@ -7,8 +7,8 @@ public class Main {
 		System.out.println(Person.wallet);
 
 		//インスタンスを2つ生成
-		Person hoge01 = new Person("太郎", 20, 1000);
-		Person hoge02 = new Person("花子", 25, 2000);
+		Person hoge01 = new Person(1000);
+		Person hoge02 = new Person(2000);
 
 		System.out.println("インスタンスhoge01でwalletにアクセス");
 		System.out.println(hoge01.wallet);
@@ -19,6 +19,7 @@ public class Main {
 
 		//課題5
 		//インスタンスの作成
+		Animal ani = new Animal();
 		Dog dog = new Dog("ポチ", 5, 12.3);
 
 		//子クラス変数表示
@@ -29,9 +30,8 @@ public class Main {
 		//走る 子クラスメソッド呼出
 		dog.run();
 
-		//眠る 親クラスメソッド呼出
+		//眠る
+		ani.sleep();
 		dog.sleep();
-		//眠る 子クラスメソッド呼出
-		dog.sleep(dog.name);
 	}
 }

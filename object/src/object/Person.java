@@ -28,16 +28,18 @@ public class Person {
 		this.age = age;
 	}
 
-	//コンストラクタ 引数なし
-	Person(){
-		System.out.println("名前と年齢が設定されていません。");
-	}
+	//課題1 コンストラクタ 引数なし
+	public Person(){}
 
-	//コンストラクタ
-	Person(String name, int age, int wallet){
+	//課題1 コンストラクタ 引数あり
+	public Person(String name, int age){
 		this.name = name;
 		this.age = age;
-		Person.wallet = wallet;
+	}
+
+	//課題2 コンストラクタ
+	public Person(int wallet) {
+		Person.wallet += wallet;
 	}
 
 	public void myProfile() {
