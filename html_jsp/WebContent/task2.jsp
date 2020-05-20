@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<%! int diff(int a, int b){
+<%! int substraction(int a, int b){
 		return a - b;
 	}
 %>
@@ -11,7 +11,7 @@
 <title>JSP TASK</title>
 </head>
 <body>
-	<h1>125 - 15 = <%= diff(125, 15) %></h1>
-	<h1>17 - 21 = <%= diff(17, 21) %></h1>
+	<h1>125 - 15 = <%= substraction(125, 15) %></h1>
+	<h1>17 - 21 = <%= substraction(17, 21) %></h1>
 </body>
 </html>
