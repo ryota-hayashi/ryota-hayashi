@@ -25,7 +25,7 @@ public class Task4 extends HttpServlet {
 		HtmlTemplate.header(out);
 
 		//占い結果表示
-		out.println("<p>占い結果</p>");
+		out.println("<p>↓占い結果↓</p>");
 		out.println("<h1>" + array[r] + "</h1>");
 
 		//footerメソッドの呼び出し
